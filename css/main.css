@@ -642,3 +642,99 @@ body{
     border-bottom: 1px solid #D2D2D2;
 }
 /* contact pages main section end */
+/* article pages main section start */
+.article__hero-left{
+    width: 67%;
+}
+.hero-flex__start{
+    display: flex;
+    align-items: flex-start;
+}
+.hero__left-top{
+    display: flex;
+    align-items: center;
+}
+.hero__left-top time{
+    margin-left: 10px;
+    display: inline-block;
+    font-weight: 400;
+    line-height: 17px;
+    font-size: 14px;
+    color: #5E5F61;
+}
+.hero__left-mt:nth-child(1){
+    margin-top: 30px;
+    font-weight: 500;
+    line-height: 36px;
+    font-size: 26px;
+    color: #000000;
+}
+.hero__left-mt:nth-child(2){
+    margin-top: 20px;
+    width: 100%;
+}
+.hero__left-mt:nth-child(3),
+.hero__left-mt:nth-child(4) ,
+.hero__left-mt:nth-child(5) ,
+.hero__left-mt:nth-child(6) ,
+.hero__left-mt:nth-child(7) ,
+.hero__left-mt:nth-child(8){
+    margin-top: 25px;
+    font-weight: 400;
+    line-height: 30px;
+    font-size: 20px;
+    color: #000000;
+}
+.hero__left-mt:nth-child(9){
+    margin-top: 50px;
+    display: block;
+    width: 100%;
+    height: 1px;
+    background-color: #D2D2D2;
+}
+.box-section{
+    margin-bottom: 110px;
+}
+.box h2{
+    font-weight: 500;
+    line-height: 28px;
+    font-size: 24px;
+    color: #000000;
+}
+.box__center{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.box__center-item{
+    width: 32%;
+    padding: 20px;
+    background: #F6F6F6;
+    border-radius: 15px;
+}
+.box__center-item h3{
+    font-weight: 500;
+    line-height: 26px;
+    font-size: 20px;
+    color: #000000;
+}
+.box__center-item p{
+    margin: 10px 0 20px 0;
+    font-weight: 400;
+    line-height: 22px;
+    font-size: 16px;
+    color: #4A4B4C;
+}
+.center__item-section{
+    display: flex;
+    align-items: center;
+}
+.center__item-section time{
+    margin-left: 10px;
+    font-weight: 400;
+    line-height: 14px;
+    font-size: 12px;
+    color: #5E5F61;
+}
+/* article pages main section end */
